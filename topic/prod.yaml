@@ -3,6 +3,8 @@ kind: Topic
 metadata:
   name: omrade-helse-etterlevelse
   namespace: flex
+  labels:
+    team: flex
 spec:
   pool: nav-prod
   config:
