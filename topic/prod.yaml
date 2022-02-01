@@ -4,7 +4,7 @@ metadata:
   name: omrade-helse-etterlevelse
   namespace: flex
 spec:
-  pool: nav-dev
+  pool: nav-prod
   config:
     cleanupPolicy: delete
     minimumInSyncReplicas: 1
