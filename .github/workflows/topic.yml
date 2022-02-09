@@ -17,7 +17,7 @@ jobs:
           RESOURCE: topic/dev.yaml
 
   deploy-topic-til-prod:
-    if: github.ref == 'refs/heads/master-endre-denne-for-prodsetting'
+    if: github.ref == 'refs/heads/master'
     name: Deploy topic til prod-gcp
     runs-on: ubuntu-latest
     steps:
