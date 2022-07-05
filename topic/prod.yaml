@@ -33,3 +33,6 @@ spec:
     - team: tbd
       application: spre-subsumsjon
       access: write
+    - team: tbd
+      application: spydig
+      access: read
