@@ -37,5 +37,5 @@ spec:
       application: spre-subsumsjon
       access: write
     - team: tbd
-      application: helse-spydig
+      application: spydig
       access: read
