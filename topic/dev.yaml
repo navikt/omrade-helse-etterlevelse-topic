@@ -39,3 +39,6 @@ spec:
     - team: tbd
       application: spydig
       access: read
+    - team: tbd
+      application: spane
+      access: read
