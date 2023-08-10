@@ -30,6 +30,9 @@ spec:
     - team: teamsykmelding
       application: teamsykmelding-pik
       access: write
+    - team: teamsykmelding
+      application: teamsykmelding-pik-2
+      access: write
     - team: risk
       application: sigmund
       access: write
