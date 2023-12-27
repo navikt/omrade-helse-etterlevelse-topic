@@ -3,7 +3,7 @@ on: push
 
 jobs:
   deploy-topic-til-dev:
-    if: github.ref == 'refs/heads/master' || startsWith(github.ref, 'refs/heads/dev-')
+    if: github.ref_name == 'main' || startsWith(github.ref_name, 'dev-')
     name: Deploy topic til dev-gcp
     runs-on: ubuntu-latest
     permissions:
@@ -18,7 +18,7 @@ jobs:
           RESOURCE: topic/dev.yaml
 
   deploy-topic-til-prod:
-    if: github.ref == 'refs/heads/master'
+    if: github.ref_name == 'main'
     name: Deploy topic til prod-gcp
     runs-on: ubuntu-latest
     permissions:
