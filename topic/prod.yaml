@@ -30,9 +30,6 @@ spec:
     - team: teamsykmelding
       application: teamsykmelding-pik-2
       access: write
-    - team: risk
-      application: sigmund
-      access: write
     - team: tbd
       application: spre-subsumsjon
       access: write
