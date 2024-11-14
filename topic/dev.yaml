@@ -14,6 +14,7 @@ spec:
     replication: 3
     retentionBytes: -1
     retentionHours: -1
+    localRetentionHours: 24 # 1 dag lagring på rask disk
   acl:
     - team: flex
       application: flex-juridisk-vurdering-test-backend
