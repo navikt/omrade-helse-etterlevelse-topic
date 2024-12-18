@@ -43,3 +43,6 @@ spec:
     - team: tbd
       application: helse-spane
       access: read
+    - team: tbd
+      application: sparkiv-subsumsjon
+      access: read
