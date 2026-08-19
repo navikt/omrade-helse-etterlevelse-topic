@@ -46,3 +46,6 @@ spec:
     - team: tbd
       application: sparkiv-subsumsjon
       access: read
+    - team: tsm
+      application: tsm-pik
+      access: write
